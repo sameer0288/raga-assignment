@@ -14,7 +14,7 @@ interface AuthState {
 
 const DEMO_USER_KEY = 'demo-user-session';
 
-export const useAuthStore = create<AuthState>((set, get) => ({
+export const useAuthStore = create<AuthState>((set) => ({
   user: null,
   loading: true,
   error: null,
