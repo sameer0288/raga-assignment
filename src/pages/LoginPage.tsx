@@ -99,6 +99,10 @@ const LoginPage = () => {
             />
           </div>
 
+          <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>
+            Demo credentials: <strong>demo@healbase.com</strong> / <strong>password</strong>
+          </div>
+
           <button 
             type="submit" 
             disabled={loading}
